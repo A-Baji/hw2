@@ -40,7 +40,7 @@ void problem1() { // Teapot circle
 			// Rotate matrix by the angle of the current point's position
 			glRotatef(degree, 0.0, 0.0, 1.0);
 
-			// Draw a size .15 tea pot with the current matrix.
+			// Draw a size .2 tea pot with the current matrix.
 			glutSolidTeapot(0.2);
 		glPopMatrix();
 	}
