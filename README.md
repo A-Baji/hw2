@@ -76,8 +76,9 @@ PSID: 1776794
 
 For problem 1, I had to create a circle of teapots that are equidistant from each other and rotated according to their angle to the x axis. To do this, first the necessary theta is calculated by dividing 2pi by the number of teapots. Then in a for loop that iterates for each pot, the angle for the current teapot is calculated in radians and degrees. Then the current matrix is translated to its point using the angle in radians, then rotated using the angle in degrees, and then the teapot is rendered with this matrix.
 
-
-For problem 2, I had to create a series of steps with slightly increasing height. First the overall matrix is translated to the left so that the 15 steps are centered. Then there are two nested for loops. The first one iterates for every step, and the second one iterates until the current step number. So if we are on step three in the outer loop, the inner loop will iterate three times. For every step after the first, we render multiple cubes according to the step number, increasing the height of each consecutive cube so that the last cube of a step is higher than the previous step's.
-
+For problem 2, I had to create a series of steps with slightly increasing height. First the overall matrix is translated to the left so that the 15 steps are centered. Then there are two nested for loops. The first one iterates for every step, and the second one iterates until the current step number. So if we are on step three in the outer loop, the inner loop will iterate three times. For every step after the first, we render multiple cubes according to the step number, increasing the height of each consecutive cube to form a column.
 
 For problem 3, I created a sun-like figure with a happy face inspired by the shrine sprites from Super Mario Sunshine. First I created a sphere in the center. Then I used the same technique as problem 1 to put cones around the surface of the sphere, and then I put smaller spheres at the points of those cones. This creates the sun shape. For the face I used three tori. The first two are rotated 90 degree around the y axis and brought forward on the z axis until they are slightly sticking out of the sphere, creating eye shapes. The third torus is larger, and slightly tilted on the x axis, and then brought forward on the z axis until it is slightly sticking out of the sphere, creating a smile.
+
+*Display:*
+
