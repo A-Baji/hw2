@@ -82,3 +82,8 @@ For problem 3, I created a sun-like figure with a happy face inspired by the shr
 
 *Display:*
 
+In the display function, I had to set up glViewport, gluPerspective, and gluLookAt. glViewport is used to scale the render depending on the window size, gluPerspective sets up the projection matrix, and gluLookat sets up the model-viewing matrix. For gluePerspective, the FOV is set to 45, the aspec ratio is calculated using windowWidth and windowHeight, and the near and far planes are set to 1 and 100. For gluLookAt, the eye point is set to (0, 0, 2.75), the center point is set to (0, 0, 0) and the up vector is set to (0, 1, 0).
+
+*Keyboard:*
+
+The key binds for switching scenes is 1, 2, and 3. 1 switches to problem 1, 2 switches to problem 2, and 3 switches to problem 3. To exit the program, press q, Q, or esc.
