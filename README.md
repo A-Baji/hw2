@@ -48,7 +48,7 @@ PSID: 1776794
 * Type: void
 * Params: int x, int y
 * Use: Used as the parameter for glutMotionFunc to set the motion callback
-- Allows for the view to be rotated left or right by clicking and dragging with the mouse
+-- Allows for the view to be rotated left or right by clicking and dragging with the mouse
 
 
 *keyboard:*
