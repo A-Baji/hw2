@@ -61,7 +61,7 @@ void problem2() { // Steps
 					// Move matrix to current height
 					glTranslatef(i*0.15, height, 0.0);
 
-					// Draw a size .1 cube
+					// Draw a size .15 cube
 					glutSolidCube(0.15);
 				glPopMatrix();
 			}
