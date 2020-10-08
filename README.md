@@ -29,7 +29,7 @@ PSID: 1776794
 * Type: void
 * Params: none
 * Use: Renders a sun-like figure with a happy face
-- Inspired by the shine sprites from Super Mario Sunshine
+ * Inspired by the shine sprites from Super Mario Sunshine
 
 
 *display:*
@@ -48,25 +48,24 @@ PSID: 1776794
 * Type: void
 * Params: int x, int y
 * Use: Used as the parameter for glutMotionFunc to set the motion callback
-
-Allows for the view to be rotated left or right by clicking and dragging with the mouse
+ * Allows for the view to be rotated left or right by clicking and dragging with the mouse
 
 
 *keyboard:*
 * Type: void
 * Params: unsigned char key, int x, int y
 * Use: Used as the parameter for glutKeyboardFunc to set the keyboard callback
-- Allows for the render to be switched between problem 1-3 by pressing 1, 2, or 3 on the keyboard. Press q, Q, or ESC to exit the program
+ * Allows for the render to be switched between problem 1-3 by pressing 1, 2, or 3 on the keyboard. Press q, Q, or ESC to exit the program
 
 
 *reshape:*
 * Type: void
 * Params: int width, int height
 * Use: Used as the parameter for glutReshapeFunc to set the reshape callback
-- Allows for the window to be resized while scaling and centering the render
+ * Allows for the window to be resized while scaling and centering the render
 
 
 *main:*
 * Type: int
 * Params: int argc, char** argv
-* Use: Calls all the functions needed to intialize and create the window and render
+ * Use: Calls all the functions needed to intialize and create the window and render
