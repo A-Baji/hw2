@@ -3,6 +3,9 @@ COSC 4370 Homework 2
 
 PSID: 1776794
 
+* Item 2
+  * Item 2a
+
 **Environment:**
 * OS: Windows 10
 
