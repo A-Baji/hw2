@@ -1,8 +1,6 @@
 # hw2
 COSC 4370 Homework 2
 
-PSID: 1776794
-
 **Environment:**
 * OS: Windows 10
 
